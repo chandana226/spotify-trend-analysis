@@ -1,0 +1,26 @@
+spotipy
+kafka-python
+pyspark
+mmh3
+numpy
+datasketch
+
+# Core dependencies
+pyspark==3.2.0
+kafka-python==2.0.2
+spotipy==2.19.0
+numpy>=1.19.2
+pandas>=1.3.0
+
+# Streaming and hashing
+mmh3==3.0.0
+datasketch==1.5.7
+
+# ML and XAI
+lime==0.2.0.1
+shap==0.41.0
+scikit-learn>=0.24.2
+
+# Visualization (optional but recommended)
+matplotlib>=3.4.3
+seaborn>=0.11.2
